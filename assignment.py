@@ -155,21 +155,6 @@ for i in range(n):
  kg.append(float(val))
 print(kg)
 print("-------------------------------------------------------------------------------------")
-#question-9
-n = int(input("enter the no of students"))
-lb = []
-print("enter the weights of {} students in lbs".format(n))
-for i in range(n):
- lb.append(int(input()))
- #converting weights in lbs to kilograms
- kg = []
-for i in range(n):
- val = "{:.2f}".format(lb[i]*0.45359237)
- kg.append(float(val))
-print(kg)
-print("-------------------------------------------------------------------------------------")
-
-
 
 
 
